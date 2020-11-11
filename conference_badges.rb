@@ -24,8 +24,11 @@ end
 def printer(array)
   wow = batch_badge_creator(array)
   wow1 = assign_rooms(array)
+  i=0
   
-  puts wow[0]
-  puts wow1[0]
+  while i<wow.length
+    puts wow[i]
+    puts wow1[i]
+    i += 1
 end
   
