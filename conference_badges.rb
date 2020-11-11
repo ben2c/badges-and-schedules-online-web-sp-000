@@ -13,6 +13,7 @@ end
 
 def assign_rooms(array)
   room = 1
-  (array.length).times 
+  loop (array.length).times 
   return "Hello, #{array[room-1]}! You'll be assigned to room #{room}!"
   room += 1
+end
