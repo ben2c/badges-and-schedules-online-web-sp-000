@@ -30,5 +30,6 @@ def printer(array)
     puts wow[i]
     puts wow1[i]
     i += 1
+  end
 end
   
